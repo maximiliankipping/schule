@@ -1,0 +1,24 @@
+package task;
+
+import java.util.Scanner;
+
+public class Quadratzahlen {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Bitte geben Sie die Zahl ein, von der das Quadrat gebildet werden soll: ");
+		int zahl = sc.nextInt();
+		sc.close();
+		quadrat(zahl);
+		System.out.format("Das Quadrat von %d lautet: %d",zahl, quadrat(zahl));
+		
+	}
+	
+	public static int quadrat (int qzahl) {
+		Math.pow(qzahl, 2);
+		return qzahl;
+	}
+
+}

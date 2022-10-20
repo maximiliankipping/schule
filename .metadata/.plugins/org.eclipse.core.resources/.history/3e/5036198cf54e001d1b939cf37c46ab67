@@ -1,0 +1,56 @@
+package task;
+
+import java.util.Scanner;
+
+public class Schaltjahr {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Scanner eingabe = new Scanner(System.in);
+		double jahreszahl;
+		String s1 = "Es handelt sich bei der eingegebenen Jahreszahl um ein Schaltjahr.";
+		String s2 = "Es handelt sich bei der eingegebenen Jahreszahl um kein Schaltjahr.";
+
+		System.out.println("Mit diesem Programm können Sie überprüfen ob Ihre Eingabe ein Schaltjahr ist, oder nicht.");
+		System.out.println("Geben Sie bitte Ihre Jahreszahl ein:");
+		System.out.println("");
+		jahreszahl = eingabe.nextDouble();
+		
+		eingabe.close();
+
+		if ((jahreszahl % 4) == 0) {
+
+			if ((jahreszahl % 100) == 0) {
+
+				if ((jahreszahl % 400) == 0) {
+
+					String ende = s1;
+					System.out.println(ende);
+				} else {
+
+					String ende = s2;
+
+					System.out.println(ende);
+
+				}
+
+			} else {
+
+				String ende = s2;
+
+				System.out.println(ende);
+
+			}
+
+		} else {
+
+			String ende = s2;
+
+			System.out.println(ende);
+
+		}
+
+	}
+
+}
