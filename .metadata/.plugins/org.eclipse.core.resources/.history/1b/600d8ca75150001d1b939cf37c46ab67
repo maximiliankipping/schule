@@ -1,0 +1,22 @@
+package task;
+
+import java.util.Map;
+
+public class LKWMaut {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	
+	public static void Maut(int distance, int axis, String envClass) {
+		Map<String, Double[]> envClass = new HashMap<String, Double[]>();
+		envClasses.put("A", new Double[] { 12.5d, 13.1d });
+		envClasses.put("B", new Double[] { 14.6d, 15.2d });
+		envClasses.put("C", new Double[] { 15.7d, 16.3d });
+		envClasses.put("D", new Double[] { 18.8d, 19.4d });
+		envClasses.put("E", new Double[] { 19.8d, 20.4d });
+		envClasses.put("F", new Double[] { 20.8d, 21.4d });
+	}
+
+}
