@@ -64,6 +64,9 @@ public class Kaffeemaschine {
 		//int temp = z[3]
 		//z[3] = z[0]
 		//z[0] = temp
+		
+		
+		//Hinweis: Bubble Sort anschauen (nicht relevant für Aufgabe 1 g
 
 	}
 
